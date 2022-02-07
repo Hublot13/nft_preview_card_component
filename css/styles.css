@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(217, 54%, 11%);
+}
+
+section {
+    width: 350px;
+    height: 600px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 6px 32px 35px rgb(19, 16, 44), -6px -2px 35px rgb(19, 16, 44);
+}
+
+h1 {
+    color: white;
+    margin:20px 0 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1:hover {
+    color:  hsl(178, 100%, 50%);
+}
+
+strong {
+    color:  hsl(178, 100%, 50%);
+    margin-left: 6px;
+}
+
+p {
+    color: hsl(215, 51%, 70%);
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.main {
+    margin: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.etherium {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.etherium img.big {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.etherium .eye {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 255, 247, 0.8);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.etherium .eye:hover {
+    opacity: 1;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.half {
+    display: flex;
+    align-items: center;
+}
+
+.half img {
+    height: 18px;
+}
+
+.half p {
+    font-size: 16px;
+    margin-left: 6px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: #2f415b;
+}
+
+.foot {
+    margin-top: 15px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.foot .avatar {
+    height: 33px;
+    width: 33px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 10px;
+}
+
+.foot .avatar img {
+    height: 30px;
+    width: 30px;
+    margin: auto;
+}
+
+.foot .creator {
+    margin-left: 7px;
+    margin-top: 5px;
+}
+
+.foot .creator p,
+.foot .creator a {
+    font-size: 16px;
+    display: inline;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot a:hover {
+    color: cyan;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 15px;
+    justify-self: flex-end;
+    align-self: flex-end;
+    font-size: 10px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
